@@ -1,0 +1,94 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 800px;
+    padding: 50px;
+}
+
+.details-img {
+    display: flex;
+    width: auto;
+    height: 200px;
+}
+
+.details-upvotes {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+.details-upvotes button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.posted-time {
+    font-size: 0.9rem;
+    color: grey;
+
+}
+
+.upvotes-icon {
+    margin: 5px;
+}
+
+.upvotes-icon:hover {
+    color: #646cff;
+}
+
+.upvotes-text {
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.details-comments {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+
+.details-submit-button, .comment-update-button{
+    display: flex;
+    /* margin-top: 10px; */
+    border-radius: 30px;
+}
+
+.details-edit-button {
+    width: 100%;
+    border-radius: 30px;
+    background-color: black;
+    padding: 15px 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+.details-edit-button:hover {
+    background-color: rgb(46, 46, 46);
+}
+
+.comment-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.comment-icon {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.comment-update-buttons {
+    display: flex;
+    gap: 1rem;  
+    margin-bottom: 50px;
+
+}
+

@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 330px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+.card-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.card-upvotes {
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+.posted-time {
+    display: flex;
+    margin: 8px;
+    font-weight: 300;
+    font-size: 0.75rem;
+}
